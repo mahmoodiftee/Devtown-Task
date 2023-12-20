@@ -11,7 +11,7 @@ const MainLayout = () => {
             <div className="drawer lg:drawer-open md:pt-6">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                 {/* Main Components */}
-                <div className="md:ml-6 mt-4 md:mt-0 border border-base-300 rounded-lg drawer-content flex flex-col items-center justify-center">
+                <div className="md:ml-6 mt-4 md:mt-0 border border-base-300 rounded-lg drawer-content">
                     <Outlet />
                 </div>
                 <div className="drawer-side">
