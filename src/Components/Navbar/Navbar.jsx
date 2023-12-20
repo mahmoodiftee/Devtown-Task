@@ -16,7 +16,7 @@ const Navbar = () => {
                     </button>
                 </div>
             </div>
-            
+            {/* Filter Section */}
             <div className="ml-6 h-14 border-2 border-base-300 rounded-lg px-4 flex-auto flex justify-center items-center">
                 <label htmlFor="my-drawer-2" className="btn btn-circle btn-ghost drawer-button text-2xl lg:hidden"><MdMenu/></label>
                 <div className="hidden md:flex md:justify-end md:flex-auto">
