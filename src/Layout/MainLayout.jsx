@@ -14,10 +14,9 @@ const MainLayout = () => {
                 <div className="md:ml-6 mt-4 md:mt-0 border border-base-300 rounded-lg drawer-content flex flex-col items-center justify-center">
                     <Outlet />
                 </div>
-                <div className="drawer-side p-0">
+                <div className="drawer-side">
                     <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu rounded-xl p-0 w-80 min-h-full text-base-content">
-                        {/* Filtering options */}
+                    <ul className="menu rounded-xl md:p-0 w-80 min-h-full bg-base-100 text-base-content">
                         <Filter />
                     </ul>
                 </div>
