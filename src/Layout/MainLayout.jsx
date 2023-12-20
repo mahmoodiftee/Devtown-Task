@@ -5,8 +5,9 @@ const MainLayout = () => {
     return (
         <div>
             <Navbar/>
-            <div className="drawer lg:drawer-open md:pt-10">
+            <div className="drawer lg:drawer-open md:pt-6">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+                {/* Main Components */}
                 <div className="drawer-content flex flex-col items-center justify-center">
                     <Outlet />
                 </div>
