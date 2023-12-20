@@ -1,0 +1,234 @@
+[
+    {
+        "id": 1,
+        "brand": "Oppo",
+        "phone_name": "Find X5",
+        "slug": "oppo_find_x5-11378",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5.jpg",
+        "price": "$999"
+    },
+    {
+        "id": 2,
+        "brand": "Oppo",
+        "phone_name": "Find X5 Pro",
+        "slug": "oppo_find_x5_pro-11236",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg",
+        "price": "$1,099"
+    },
+    {
+        "id": 3,
+        "brand": "Oppo",
+        "phone_name": "Find X5 Lite",
+        "slug": "oppo_find_x5_lite-11323",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-lite.jpg",
+        "price": "$699"
+    },
+    {
+        "id": 4,
+        "brand": "Oppo",
+        "phone_name": "Pad",
+        "slug": "oppo_pad-11322",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-pad.jpg",
+        "price": "$499"
+    },
+    {
+        "id": 5,
+        "brand": "Oppo",
+        "phone_name": "A76",
+        "slug": "oppo_a76-11367",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg",
+        "price": "$299"
+    },
+    {
+        "id": 6,
+        "brand": "Oppo",
+        "phone_name": "Reno7 5G",
+        "slug": "oppo_reno7_5g-11350",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
+        "price": "$599"
+    },
+    {
+        "id": 7,
+        "brand": "Oppo",
+        "phone_name": "A96",
+        "slug": "oppo_a96-11316",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg",
+        "price": "$349"
+    },
+    {
+        "id": 8,
+        "brand": "Oppo",
+        "phone_name": "Reno6 Lite",
+        "slug": "oppo_reno6_lite-11196",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-lite.jpg",
+        "price": "$449"
+    },
+    {
+        "id": 9,
+        "brand": "Oppo",
+        "phone_name": "A36",
+        "slug": "oppo_a36-11314",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg",
+        "price": "$299"
+    },
+    {
+        "id": 10,
+        "brand": "Oppo",
+        "phone_name": "A11s",
+        "slug": "oppo_a11s-11288",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11s.jpg",
+        "price": "$349"
+    },
+    {
+        "id": 11,
+        "brand": "Oppo",
+        "phone_name": "Reno7 Pro 5G",
+        "slug": "oppo_reno7_pro_5g-11190",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-pro-r.jpg",
+        "price": "$699"
+    },
+    {
+        "id": 12,
+        "brand": "Oppo",
+        "phone_name": "Find N",
+        "slug": "oppo_find_n-11267",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n.jpg",
+        "price": "$799"
+    },
+    {
+        "id": 13,
+        "brand": "Oppo",
+        "phone_name": "K9x",
+        "slug": "oppo_k9x-11235",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9x.jpg",
+        "price": "$399"
+    },
+    {
+        "id": 14,
+        "brand": "Oppo",
+        "phone_name": "Reno7 5G (China)",
+        "slug": "oppo_reno7_5g_(china)-11160",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-r.jpg",
+        "price": "$599"
+    },
+    {
+        "id": 15,
+        "brand": "Oppo",
+        "phone_name": "Reno7 SE 5G",
+        "slug": "oppo_reno7_se_5g-11191",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-se-r.jpg",
+        "price": "$549"
+    },
+    {
+        "id": 16,
+        "brand": "Oppo",
+        "phone_name": "A16K",
+        "slug": "oppo_a16k-11200",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16k.jpg",
+        "price": "$249"
+    },
+    {
+        "id": 17,
+        "brand": "Oppo",
+        "phone_name": "A95",
+        "slug": "oppo_a95-11195",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a95.jpg",
+        "price": "$449"
+    },
+    {
+        "id": 18,
+        "brand": "Oppo",
+        "phone_name": "A54s",
+        "slug": "oppo_a54s-11144",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
+        "price": "$299"
+    },
+    {
+        "id": 19,
+        "brand": "Oppo",
+        "phone_name": "A56 5G",
+        "slug": "oppo_a56_5g-11172",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a56-5g.jpg",
+        "price": "$399"
+    },
+    {
+        "id": 20,
+        "brand": "Oppo",
+        "phone_name": "K9s",
+        "slug": "oppo_k9s-11151",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9s-r.jpg",
+        "price": "$349"
+    },
+    {
+        "id": 21,
+        "brand": "Oppo",
+        "phone_name": "A55",
+        "slug": "oppo_a55-11114",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55-4g-1.jpg",
+        "price": "$299"
+    },
+    {
+        "id": 22,
+        "brand": "Oppo",
+        "phone_name": "Reno6 Pro 5G (Snapdragon)",
+        "slug": "oppo_reno6_pro_5g_(snapdragon)-11093",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-plus.jpg",
+        "price": "$699"
+    },
+    {
+        "id": 23,
+        "brand": "Oppo",
+        "phone_name": "K9 Pro",
+        "slug": "oppo_k9_pro-11111",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9-pro.jpg",
+        "price": "$499"
+    },
+    {
+        "id": 24,
+        "brand": "Oppo",
+        "phone_name": "F19s",
+        "slug": "oppo_f19s-11108",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19s.jpg",
+        "price": "$449"
+    },
+    {
+        "id": 25,
+        "brand": "Oppo",
+        "phone_name": "Reno6",
+        "slug": "oppo_reno6-11028",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-4g.jpg",
+        "price": "$599"
+    },
+    {
+        "id": 27,
+        "brand": "Oppo",
+        "phone_name": "Reno6 Z",
+        "slug": "oppo_reno6_z-10978",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-6z-.jpg",
+        "price": "$499"
+    },
+    {
+        "id": 28,
+        "brand": "Oppo",
+        "phone_name": "A16s",
+        "slug": "oppo_a16s-11295",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
+        "price": "$249"
+    },
+    {
+        "id": 29,
+        "brand": "Oppo",
+        "phone_name": "Reno6 Pro 5G",
+        "slug": "oppo_reno6_pro_5g-10904",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
+        "price": "$699"
+    },
+    {
+        "id": 30,
+        "brand": "Oppo",
+        "phone_name": "K9",
+        "slug": "oppo_k9-10894",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9.jpg",
+        "price": "$399"
+    }
+]

@@ -1,0 +1,234 @@
+[
+    {
+        "id": 1,
+        "brand": "Huawei",
+        "phone_name": "Enjoy 20e",
+        "slug": "huawei_enjoy_20e-11177",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-20e.jpg",
+        "price": "$199.99"
+    },
+    {
+        "id": 2,
+        "brand": "Huawei",
+        "phone_name": "P50 Pocket",
+        "slug": "huawei_p50_pocket-11280",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50-pocket.jpg",
+        "price": "$699.99"
+    },
+    {
+        "id": 3,
+        "brand": "Huawei",
+        "phone_name": "nova 8 SE 4G",
+        "slug": "huawei_nova_8_se_4g-11247",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-se.jpg",
+        "price": "$499.99"
+    },
+    {
+        "id": 7,
+        "brand": "Huawei",
+        "phone_name": "nova Y60",
+        "slug": "huawei_nova_y60-11328",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-y60.jpg",
+        "price": "$179.99"
+    },
+    {
+        "id": 8,
+        "brand": "Huawei",
+        "phone_name": "nova 9 Pro",
+        "slug": "huawei_nova_9_pro-11120",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-9-pro-5g-.jpg",
+        "price": "$799.99"
+    },
+    {
+        "id": 9,
+        "brand": "Huawei",
+        "phone_name": "nova 9",
+        "slug": "huawei_nova_9-11121",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-9-5g.jpg",
+        "price": "$699.99"
+    },
+    {
+        "id": 10,
+        "brand": "Huawei",
+        "phone_name": "P50 Pro",
+        "slug": "huawei_p50_pro-11029",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50-pro.jpg",
+        "price": "$899.99"
+    },
+    {
+        "id": 11,
+        "brand": "Huawei",
+        "phone_name": "nova 8",
+        "slug": "huawei_nova_8-11048",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8.jpg",
+        "price": "$599.99"
+    },
+    {
+        "id": 12,
+        "brand": "Huawei",
+        "phone_name": "nova 8 SE Youth",
+        "slug": "huawei_nova_8_se_youth-11030",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-se-youth.jpg",
+        "price": "$349.99"
+    },
+    {
+        "id": 13,
+        "brand": "Huawei",
+        "phone_name": "P50",
+        "slug": "huawei_p50-10788",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50.jpg",
+        "price": "$799.99"
+    },
+    {
+        "id": 14,
+        "brand": "Huawei",
+        "phone_name": "nova 8i",
+        "slug": "huawei_nova_8i-11002",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8i.jpg",
+        "price": "$349.99"
+    },
+    {
+        "id": 15,
+        "brand": "Huawei",
+        "phone_name": "Mate 40 Pro 4G",
+        "slug": "huawei_mate_40_pro_4g-10985",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate40-pro.jpg",
+        "price": "$899.99"
+    },
+    {
+        "id": 16,
+        "brand": "Huawei",
+        "phone_name": "Mate 40E 4G",
+        "slug": "huawei_mate_40e_4g-10986",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-40.jpg",
+        "price": "$799.99"
+    },
+    {
+        "id": 17,
+        "brand": "Huawei",
+        "phone_name": "Mate X2 4G",
+        "slug": "huawei_mate_x2_4g-10987",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-x2-new.jpg",
+        "price": "$1299.99"
+    },
+    {
+        "id": 18,
+        "brand": "Huawei",
+        "phone_name": "MatePad Pro 12.6 (2021)",
+        "slug": "huawei_matepad_pro_12_6_(2021)-10942",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-pro-126-2021-new.jpg",
+        "price": "$999.99"
+    },
+    {
+        "id": 19,
+        "brand": "Huawei",
+        "phone_name": "MatePad Pro 10.8 (2021)",
+        "slug": "huawei_matepad_pro_10_8_(2021)-10938",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-pro-108-2021-new.jpg",
+        "price": "$799.99"
+    },
+    {
+        "id": 20,
+        "brand": "Huawei",
+        "phone_name": "MatePad 11 (2021)",
+        "slug": "huawei_matepad_11_(2021)-10943",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-11-2021.jpg",
+        "price": "$599.99"
+    },
+    {
+        "id": 23,
+        "brand": "Huawei",
+        "phone_name": "nova 8 Pro 4G",
+        "slug": "huawei_nova_8_pro_4g-10875",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-pro-5g.jpg",
+        "price": "$599.99"
+    },
+    {
+        "id": 25,
+        "brand": "Huawei",
+        "phone_name": "Mate 40E",
+        "slug": "huawei_mate_40e-10783",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-40.jpg",
+        "price": "$699.99"
+    },
+    {
+        "id": 26,
+        "brand": "Huawei",
+        "phone_name": "P40 4G",
+        "slug": "huawei_p40_4g-10755",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p40-4g.jpg",
+        "price": "$499.99"
+    },
+    {
+        "id": 27,
+        "brand": "Huawei",
+        "phone_name": "Mate X2",
+        "slug": "huawei_mate_x2-10697",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-x2-new.jpg",
+        "price": "$1299.99"
+    },
+    {
+        "id": 28,
+        "brand": "Huawei",
+        "phone_name": "nova 8 Pro 5G",
+        "slug": "huawei_nova_8_pro_5g-10642",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-pro-5g.jpg",
+        "price": "$699.99"
+    },
+    {
+        "id": 29,
+        "brand": "Huawei",
+        "phone_name": "nova 8 5G",
+        "slug": "huawei_nova_8_5g-10645",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-5g.jpg",
+        "price": "$599.99"
+    },
+    {
+        "id": 30,
+        "brand": "Huawei",
+        "phone_name": "Enjoy 20 SE",
+        "slug": "huawei_enjoy_20_se-10652",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-20-se.jpg",
+        "price": "$249.99"
+    },
+    {
+        "id": 31,
+        "brand": "Huawei",
+        "phone_name": "nova 8 SE",
+        "slug": "huawei_nova_8_se-10579",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-se.jpg",
+        "price": "$499.99"
+    },
+    {
+        "id": 32,
+        "brand": "Huawei",
+        "phone_name": "Mate 40 RS Porsche Design",
+        "slug": "huawei_mate_40_rs_porsche_design-10551",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate40-rs.jpg",
+        "price": "$1299.99"
+    },
+    {
+        "id": 33,
+        "brand": "Huawei",
+        "phone_name": "Mate 40 Pro+",
+        "slug": "huawei_mate_40_pro+-10550",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate40-pro-plus.jpg",
+        "price": "$999.99"
+    },
+    {
+        "id": 34,
+        "brand": "Huawei",
+        "phone_name": "Mate 40 Pro",
+        "slug": "huawei_mate_40_pro-10528",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate40-pro.jpg",
+        "price": "$899.99"
+    },
+    {
+        "id": 35,
+        "brand": "Huawei",
+        "phone_name": "Mate 40",
+        "slug": "huawei_mate_40-10553",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-40.jpg",
+        "price": "$799.99"
+    }
+]
