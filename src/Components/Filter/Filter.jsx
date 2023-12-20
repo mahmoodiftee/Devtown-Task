@@ -3,7 +3,7 @@ import { IoIosArrowUp } from "react-icons/io";
 const Filter = () => {
     return (
         <div className="w-full">
-            <div className="mx-auto w-full max-w-md rounded-2xl bg-white p-0">
+            <div className="mx-auto w-full max-w-md rounded-2xl bg-base-100 p-0">
                 <Disclosure as="div" className="mt-2">
                     {({ open }) => (
                         <>
