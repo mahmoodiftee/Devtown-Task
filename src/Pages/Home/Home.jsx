@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import json from "../../assets/jsons/iphone.json"
+import json from "../../assets/jsons/Oppo.json"
 import GlobalCard from "../../Components/Card/GlobalCard";
 
 const Home = () => {

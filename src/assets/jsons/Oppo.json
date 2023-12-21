@@ -5,7 +5,10 @@
         "phone_name": "Find X5",
         "slug": "oppo_find_x5-11378",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5.jpg",
-        "price": "$999"
+        "price": "$999",
+        "os": "ColorOS 12.1, Android 12",
+        "ram": "8GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 2,
@@ -13,7 +16,10 @@
         "phone_name": "Find X5 Pro",
         "slug": "oppo_find_x5_pro-11236",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg",
-        "price": "$1,099"
+        "price": "$1,099",
+        "os": "ColorOS 12.1, Android 12",
+        "ram": "8GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 3,
@@ -21,7 +27,10 @@
         "phone_name": "Find X5 Lite",
         "slug": "oppo_find_x5_lite-11323",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-lite.jpg",
-        "price": "$699"
+        "price": "$699",
+        "os": "ColorOS 12.1, Android 12",
+        "ram": "6GB",
+        "chipset": "mediatek"
     },
     {
         "id": 4,
@@ -29,7 +38,10 @@
         "phone_name": "Pad",
         "slug": "oppo_pad-11322",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-pad.jpg",
-        "price": "$499"
+        "price": "$499",
+        "os": "ColorOS, Android 10",
+        "ram": "6GB",
+        "chipset": "mediatek"
     },
     {
         "id": 5,
@@ -37,7 +49,10 @@
         "phone_name": "A76",
         "slug": "oppo_a76-11367",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg",
-        "price": "$299"
+        "price": "$299",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "4GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 6,
@@ -45,7 +60,10 @@
         "phone_name": "Reno7 5G",
         "slug": "oppo_reno7_5g-11350",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
-        "price": "$599"
+        "price": "$599",
+        "os": "ColorOS 12, Android 12",
+        "ram": "8GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 7,
@@ -53,7 +71,10 @@
         "phone_name": "A96",
         "slug": "oppo_a96-11316",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg",
-        "price": "$349"
+        "price": "$349",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "6GB",
+        "chipset": "mediatek"
     },
     {
         "id": 8,
@@ -61,7 +82,10 @@
         "phone_name": "Reno6 Lite",
         "slug": "oppo_reno6_lite-11196",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-lite.jpg",
-        "price": "$449"
+        "price": "$449",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "8GB",
+        "chipset": "mediatek"
     },
     {
         "id": 9,
@@ -69,7 +93,10 @@
         "phone_name": "A36",
         "slug": "oppo_a36-11314",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg",
-        "price": "$299"
+        "price": "$299",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "4GB",
+        "chipset": "mediatek"
     },
     {
         "id": 10,
@@ -77,7 +104,10 @@
         "phone_name": "A11s",
         "slug": "oppo_a11s-11288",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11s.jpg",
-        "price": "$349"
+        "price": "$349",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "4GB",
+        "chipset": "mediatek"
     },
     {
         "id": 11,
@@ -85,7 +115,10 @@
         "phone_name": "Reno7 Pro 5G",
         "slug": "oppo_reno7_pro_5g-11190",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-pro-r.jpg",
-        "price": "$699"
+        "price": "$699",
+        "os": "ColorOS 12, Android 12",
+        "ram": "8GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 12,
@@ -93,7 +126,10 @@
         "phone_name": "Find N",
         "slug": "oppo_find_n-11267",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n.jpg",
-        "price": "$799"
+        "price": "$799",
+        "os": "ColorOS 12, Android 12",
+        "ram": "8GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 13,
@@ -101,7 +137,10 @@
         "phone_name": "K9x",
         "slug": "oppo_k9x-11235",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9x.jpg",
-        "price": "$399"
+        "price": "$399",
+        "os": "ColorOS 12, Android 12",
+        "ram": "6GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 14,
@@ -109,7 +148,10 @@
         "phone_name": "Reno7 5G (China)",
         "slug": "oppo_reno7_5g_(china)-11160",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-r.jpg",
-        "price": "$599"
+        "price": "$599",
+        "os": "ColorOS 12, Android 12",
+        "ram": "8GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 15,
@@ -117,7 +159,10 @@
         "phone_name": "Reno7 SE 5G",
         "slug": "oppo_reno7_se_5g-11191",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-se-r.jpg",
-        "price": "$549"
+        "price": "$549",
+        "os": "ColorOS 12, Android 12",
+        "ram": "8GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 16,
@@ -125,7 +170,10 @@
         "phone_name": "A16K",
         "slug": "oppo_a16k-11200",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16k.jpg",
-        "price": "$249"
+        "price": "$249",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "3GB",
+        "chipset": "mediatek"
     },
     {
         "id": 17,
@@ -133,7 +181,10 @@
         "phone_name": "A95",
         "slug": "oppo_a95-11195",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a95.jpg",
-        "price": "$449"
+        "price": "$449",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "8GB",
+        "chipset": "mediatek"
     },
     {
         "id": 18,
@@ -141,7 +192,10 @@
         "phone_name": "A54s",
         "slug": "oppo_a54s-11144",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
-        "price": "$299"
+        "price": "$299",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "6GB",
+        "chipset": "mediatek"
     },
     {
         "id": 19,
@@ -149,7 +203,10 @@
         "phone_name": "A56 5G",
         "slug": "oppo_a56_5g-11172",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a56-5g.jpg",
-        "price": "$399"
+        "price": "$399",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "6GB",
+        "chipset": "mediatek"
     },
     {
         "id": 20,
@@ -157,7 +214,10 @@
         "phone_name": "K9s",
         "slug": "oppo_k9s-11151",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9s-r.jpg",
-        "price": "$349"
+        "price": "$349",
+        "os": "ColorOS 12, Android 12",
+        "ram": "6GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 21,
@@ -165,7 +225,10 @@
         "phone_name": "A55",
         "slug": "oppo_a55-11114",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55-4g-1.jpg",
-        "price": "$299"
+        "price": "$299",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "4GB",
+        "chipset": "mediatek"
     },
     {
         "id": 22,
@@ -173,7 +236,10 @@
         "phone_name": "Reno6 Pro 5G (Snapdragon)",
         "slug": "oppo_reno6_pro_5g_(snapdragon)-11093",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-plus.jpg",
-        "price": "$699"
+        "price": "$699",
+        "os": "ColorOS 11.3, Android 11",
+        "ram": "12GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 23,
@@ -181,7 +247,10 @@
         "phone_name": "K9 Pro",
         "slug": "oppo_k9_pro-11111",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9-pro.jpg",
-        "price": "$499"
+        "price": "$499",
+        "os": "ColorOS 11.3, Android 11",
+        "ram": "8GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 24,
@@ -189,7 +258,10 @@
         "phone_name": "F19s",
         "slug": "oppo_f19s-11108",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19s.jpg",
-        "price": "$449"
+        "price": "$449",
+        "os": "ColorOS 12, Android 12",
+        "ram": "6GB",
+        "chipset": "snapdragon"
     },
     {
         "id": 25,
@@ -197,7 +269,11 @@
         "phone_name": "Reno6",
         "slug": "oppo_reno6-11028",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-4g.jpg",
-        "price": "$599"
+        "price": "$599",
+        "os": "ColorOS 11.3, Android 11",
+        "ram": "8GB",
+
+        "chipset": "mediaTek"
     },
     {
         "id": 27,
@@ -205,30 +281,10 @@
         "phone_name": "Reno6 Z",
         "slug": "oppo_reno6_z-10978",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-6z-.jpg",
-        "price": "$499"
-    },
-    {
-        "id": 28,
-        "brand": "Oppo",
-        "phone_name": "A16s",
-        "slug": "oppo_a16s-11295",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
-        "price": "$249"
-    },
-    {
-        "id": 29,
-        "brand": "Oppo",
-        "phone_name": "Reno6 Pro 5G",
-        "slug": "oppo_reno6_pro_5g-10904",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-5g.jpg",
-        "price": "$699"
-    },
-    {
-        "id": 30,
-        "brand": "Oppo",
-        "phone_name": "K9",
-        "slug": "oppo_k9-10894",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9.jpg",
-        "price": "$399"
+        "price": "$499",
+        "os": "ColorOS 11.1, Android 11",
+        "ram": "8GB",
+
+        "chipset": "mediaTek"
     }
 ]
