@@ -2,6 +2,8 @@ import { IoGrid, IoListSharp, IoSearch } from "react-icons/io5";
 import { HiQueueList } from "react-icons/hi2";
 import { MdMenu } from "react-icons/md";
 const Navbar = () => {
+
+    
     return (
         <div className="navbar p-0 justify-between rounded-xl bg-base-100">
             {/* seacrh */}

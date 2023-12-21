@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import MainLayout from './Layout/MainLayout';
 import Home from './Pages/Home/Home';
+import Provider from './Provider/Provider';
 
 const router = createBrowserRouter([
   {
@@ -23,8 +24,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className='max-w-screen-xl pt-10 mx-auto px-2 min-h-screen'>
-      <RouterProvider router={router} />
-    </div>
+    <Provider>
+      <div className='max-w-screen-xl pt-10 mx-auto px-2 min-h-screen'>
+        <RouterProvider router={router} />
+      </div>
+    </Provider>
   </React.StrictMode>
 );

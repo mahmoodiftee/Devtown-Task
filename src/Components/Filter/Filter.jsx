@@ -1,6 +1,12 @@
 import { Disclosure } from '@headlessui/react'
 import { IoIosArrowUp } from "react-icons/io";
+import { useCustomHook } from '../../Provider/Provider';
 const Filter = () => {
+    const { setSelected, Selected } = useCustomHook();
+    const handleSelectedOption = (value) => {
+        setSelected(value);
+    }
+
     return (
         <div className="w-full">
             <div className="mx-auto w-full max-w-md rounded-2xl bg-base-100 p-0">
@@ -17,25 +23,37 @@ const Filter = () => {
                             <Disclosure.Panel className="px-4 pb-2 pt-4 text-lg text-gray-500">
                                 <div className="form-control">
                                     <label className="flex gap-4 justify-start items-center cursor-pointer">
-                                        <input type="checkbox" className="checkbox" />
+                                        <input
+                                            onChange={() => handleSelectedOption('Apple')}
+                                            checked={Selected === 'Apple'}
+                                            type="checkbox" className="checkbox" />
                                         <span className="font-medium text-xl">Apple</span>
                                     </label>
                                 </div>
                                 <div className="form-control mt-2">
                                     <label className="flex gap-4 justify-start items-center cursor-pointer">
-                                        <input type="checkbox" className="checkbox" />
+                                        <input
+                                            onChange={() => handleSelectedOption('Samsung')}
+                                            checked={Selected === 'Samsung'}
+                                            type="checkbox" className="checkbox" />
                                         <span className="font-medium text-xl">Samsung</span>
                                     </label>
                                 </div>
                                 <div className="form-control mt-2">
                                     <label className="flex gap-4 justify-start items-center cursor-pointer">
-                                        <input type="checkbox" className="checkbox" />
+                                        <input
+                                            onChange={() => handleSelectedOption('Oppo')}
+                                            checked={Selected === 'Oppo'}
+                                            type="checkbox" className="checkbox" />
                                         <span className="font-medium text-xl">Oppo</span>
                                     </label>
                                 </div>
                                 <div className="form-control mt-2">
                                     <label className="flex gap-4 justify-start items-center cursor-pointer">
-                                        <input type="checkbox" className="checkbox" />
+                                        <input
+                                            onChange={() => handleSelectedOption('Huawei')}
+                                            checked={Selected === 'Huawei'}
+                                            type="checkbox" className="checkbox" />
                                         <span className="font-medium text-xl">Huawei</span>
                                     </label>
                                 </div>
