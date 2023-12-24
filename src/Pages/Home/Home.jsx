@@ -11,7 +11,7 @@ const Home = () => {
   const [filteredCards, setFilteredCards] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/phones')
+    axios.get('https://server-shop-mobile.vercel.app/phones')
       .then((response) => {
         const data = response.data;
         setAllCards(data);
