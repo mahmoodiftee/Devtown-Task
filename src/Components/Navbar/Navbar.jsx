@@ -1,18 +1,19 @@
-import { IoGrid, IoListSharp, IoSearch } from "react-icons/io5";
-import { HiQueueList } from "react-icons/hi2";
+import { IoGrid, IoListSharp } from "react-icons/io5";
 import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 import { useCustomHook } from "../../Provider/Provider";
 
 const Navbar = () => {
-    const { setSearchedItem, count, totalData } = useCustomHook();
+    const { count, totalData, setSearchedItem, setIsGridView, isGridView } = useCustomHook();
     const [searchTerm, setSearchTerm] = useState('');
     console.log(totalData, count);
     const handleSearch = () => {
         setSearchedItem(searchTerm);
         console.log("searched Item: ", searchTerm);
     };
-
+    const handleViewModeToggle = () => {
+        setIsGridView(!isGridView);
+    };
 
     return (
         <div className="navbar p-0 justify-between rounded-xl bg-base-100">
@@ -32,30 +33,26 @@ const Navbar = () => {
                 <label htmlFor="my-drawer-2" className="btn btn-circle btn-ghost drawer-button text-2xl lg:hidden"><MdMenu /></label>
                 <div className="hidden md:flex md:justify-end md:flex-auto">
                     <div className="hidden md:flex justify-evenly items-center w-full h-10">
-                        <div className="flex gap-2">
-                            <div className="btn btn-circle text-lg btn-ghost ">
-                                <IoGrid />
-                            </div>
-                            <div className="btn text-2xl btn-circle btn-ghost">
-                                <IoListSharp />
-                            </div>
+
+                        <div className="flex gap-2 justify-center items-center">
+                            <h1 className="font-bold text-[1.15rem]">View mode |</h1>
+                            <label className="swap swap-rotate">
+                                <input
+                                    type="checkbox"
+                                    onChange={handleViewModeToggle}
+                                    checked={isGridView}
+                                />
+                                <div className="swap-on text-[1.8rem]" >< IoGrid /></div>
+                                <div className="swap-off text-[1.8rem]"><IoListSharp /></div>
+
+                            </label>
                         </div>
-                        <div className="flex gap-2">
-                            <span className="text-red-600">{count}</span>Products found of <span className="text-red-600">{totalData}</span>
-                        </div>
-                        <div className="flex items-center">
-                            Sort By | <span className="w-24 ml-4 text-center">Product</span>
-                            <div className="dropdown dropdown-end">
-                                <div tabIndex={0} role="button" className="btn btn-circle text-2xl btn-ghost m-1"><HiQueueList /></div>
-                                <ul tabIndex={0} className="dropdown-content mt-2 z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a>Item 1</a></li>
-                                    <li><a>Item 2</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <h1 className="flex gap-2 font-bold text-lg">
+                            <span className="text-red-600 font-bold text-lg">{count}</span>Products found of <span className="text-red-600 font-bold text-lg">{totalData}</span>
+                        </h1>
                     </div>
                 </div>
-            </div>
+            </div >
         </div >
     );
 };

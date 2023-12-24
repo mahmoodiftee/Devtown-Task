@@ -7,7 +7,7 @@ const GlobalCard = ({ card }) => {
                     <img
                         src={card.image}
                         alt="card-image"
-                        className="h-full w-full object-contain"
+                        className=" h-full w-full object-contain"
                     />
                 </div>
                 <div className="px-4">

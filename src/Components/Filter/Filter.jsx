@@ -37,7 +37,7 @@ const Filter = () => {
                                     </label>
                                 </div>
 
-                                
+
                                 <div className="form-control mt-2">
                                     <label className="flex gap-4 justify-start items-center cursor-pointer">
                                         <input
@@ -50,7 +50,7 @@ const Filter = () => {
                                     </label>
                                 </div>
 
-                                
+
                                 <div className="form-control mt-2">
                                     <label className="flex gap-4 justify-start items-center cursor-pointer">
                                         <input
@@ -63,7 +63,7 @@ const Filter = () => {
                                     </label>
                                 </div>
 
-                                
+
                                 <div className="form-control mt-2">
                                     <label className="flex gap-4 justify-start items-center cursor-pointer">
                                         <input
@@ -97,16 +97,21 @@ const Filter = () => {
                                     min={0}
                                     max="100"
                                     className="range"
-                                    step="25"
-                                    onChange={(e) => handleSelectedOption('selectedPrice', e.target.value)}
-                                    value={filters.selectedPrice || 0}
+                                    step="33"
+                                    onChange={(e) => {
+                                        handleSelectedOption('selectedPrice', e.target.value);
+                                        setFilters((prevFilters) => ({
+                                            ...prevFilters,
+                                            selectedPriceRange: parseInt(e.target.value, 10),
+                                        }));
+                                    }}
+                                    value={filters.selectedPriceRange || 0}
                                 />
                                 <div className="w-full flex justify-between text-xs px-2">
-                                    <span>40k</span>
-                                    <span>80k</span>
-                                    <span>120k</span>
-                                    <span>160k</span>
-                                    <span>200k</span>
+                                    <span>$0-300</span>
+                                    <span>$600</span>
+                                    <span>$900</span>
+                                    <span>$1200</span>
                                 </div>
                             </Disclosure.Panel>
                         </>
