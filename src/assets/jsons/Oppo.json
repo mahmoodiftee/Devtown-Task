@@ -165,502 +165,491 @@
         "chipset": "Apple A12 Bionic"
     },
     {
-        "id": 1,
+        "id": 16,
         "brand": "Oppo",
         "phone_name": "Find X5",
         "slug": "oppo_find_x5-11378",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5.jpg",
         "price": "$999",
-        "os": "ColorOS 12.1, Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 2,
+        "id": 17,
         "brand": "Oppo",
         "phone_name": "Find X5 Pro",
         "slug": "oppo_find_x5_pro-11236",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg",
         "price": "$1,099",
-        "os": "ColorOS 12.1, Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 3,
+        "id": 18,
         "brand": "Oppo",
         "phone_name": "Find X5 Lite",
         "slug": "oppo_find_x5_lite-11323",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-lite.jpg",
         "price": "$699",
-        "os": "ColorOS 12.1, Android 12",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "mediatek"
     },
     {
-        "id": 4,
+        "id": 19,
         "brand": "Oppo",
         "phone_name": "Pad",
         "slug": "oppo_pad-11322",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-pad.jpg",
         "price": "$499",
-        "os": "ColorOS, Android 10",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "mediatek"
     },
     {
-        "id": 5,
+        "id": 20,
         "brand": "Oppo",
         "phone_name": "A76",
         "slug": "oppo_a76-11367",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg",
         "price": "$299",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 6,
+        "id": 21,
         "brand": "Oppo",
         "phone_name": "Reno7 5G",
         "slug": "oppo_reno7_5g-11350",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7.jpg",
         "price": "$599",
-        "os": "ColorOS 12, Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 7,
+        "id": 22,
         "brand": "Oppo",
         "phone_name": "A96",
         "slug": "oppo_a96-11316",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96.jpg",
         "price": "$349",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "mediatek"
     },
     {
-        "id": 8,
+        "id": 23,
         "brand": "Oppo",
         "phone_name": "Reno6 Lite",
         "slug": "oppo_reno6_lite-11196",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-lite.jpg",
         "price": "$449",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "mediatek"
     },
     {
-        "id": 9,
+        "id": 24,
         "brand": "Oppo",
         "phone_name": "A36",
         "slug": "oppo_a36-11314",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a36.jpg",
         "price": "$299",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "mediatek"
     },
     {
-        "id": 10,
+        "id": 25,
         "brand": "Oppo",
         "phone_name": "A11s",
         "slug": "oppo_a11s-11288",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a11s.jpg",
         "price": "$349",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "mediatek"
     },
     {
-        "id": 11,
+        "id": 26,
         "brand": "Oppo",
         "phone_name": "Reno7 Pro 5G",
         "slug": "oppo_reno7_pro_5g-11190",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-pro-r.jpg",
         "price": "$699",
-        "os": "ColorOS 12, Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 12,
+        "id": 27,
         "brand": "Oppo",
         "phone_name": "Find N",
         "slug": "oppo_find_n-11267",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n.jpg",
         "price": "$799",
-        "os": "ColorOS 12, Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 13,
+        "id": 28,
         "brand": "Oppo",
         "phone_name": "K9x",
         "slug": "oppo_k9x-11235",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9x.jpg",
         "price": "$399",
-        "os": "ColorOS 12, Android 12",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 14,
+        "id": 29,
         "brand": "Oppo",
         "phone_name": "Reno7 5G (China)",
         "slug": "oppo_reno7_5g_(china)-11160",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-r.jpg",
         "price": "$599",
-        "os": "ColorOS 12, Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 15,
+        "id": 30,
         "brand": "Oppo",
         "phone_name": "Reno7 SE 5G",
         "slug": "oppo_reno7_se_5g-11191",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-se-r.jpg",
         "price": "$549",
-        "os": "ColorOS 12, Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 16,
+        "id": 31,
         "brand": "Oppo",
         "phone_name": "A16K",
         "slug": "oppo_a16k-11200",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16k.jpg",
         "price": "$249",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "3GB",
         "chipset": "mediatek"
     },
     {
-        "id": 17,
+        "id": 32,
         "brand": "Oppo",
         "phone_name": "A95",
         "slug": "oppo_a95-11195",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a95.jpg",
         "price": "$449",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "mediatek"
     },
     {
-        "id": 18,
+        "id": 33,
         "brand": "Oppo",
         "phone_name": "A54s",
         "slug": "oppo_a54s-11144",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
         "price": "$299",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "mediatek"
     },
     {
-        "id": 19,
+        "id": 34,
         "brand": "Oppo",
         "phone_name": "A56 5G",
         "slug": "oppo_a56_5g-11172",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a56-5g.jpg",
         "price": "$399",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "mediatek"
     },
     {
-        "id": 20,
+        "id": 35,
         "brand": "Oppo",
         "phone_name": "K9s",
         "slug": "oppo_k9s-11151",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9s-r.jpg",
         "price": "$349",
-        "os": "ColorOS 12, Android 12",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 21,
+        "id": 36,
         "brand": "Oppo",
         "phone_name": "A55",
         "slug": "oppo_a55-11114",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-a55-4g-1.jpg",
         "price": "$299",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "mediatek"
     },
     {
-        "id": 22,
+        "id": 37,
         "brand": "Oppo",
         "phone_name": "Reno6 Pro 5G (Snapdragon)",
         "slug": "oppo_reno6_pro_5g_(snapdragon)-11093",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-pro-plus.jpg",
         "price": "$699",
-        "os": "ColorOS 11.3, Android 11",
+        "os": "Android",
         "ram": "12GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 23,
+        "id": 38,
         "brand": "Oppo",
         "phone_name": "K9 Pro",
         "slug": "oppo_k9_pro-11111",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-k9-pro.jpg",
         "price": "$499",
-        "os": "ColorOS 11.3, Android 11",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 24,
+        "id": 39,
         "brand": "Oppo",
         "phone_name": "F19s",
         "slug": "oppo_f19s-11108",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f19s.jpg",
         "price": "$449",
-        "os": "ColorOS 12, Android 12",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "snapdragon"
     },
     {
-        "id": 25,
+        "id": 40,
         "brand": "Oppo",
         "phone_name": "Reno6",
         "slug": "oppo_reno6-11028",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno6-4g.jpg",
         "price": "$599",
-        "os": "ColorOS 11.3, Android 11",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "mediaTek"
     },
     {
-        "id": 27,
+        "id": 41,
         "brand": "Oppo",
         "phone_name": "Reno6 Z",
         "slug": "oppo_reno6_z-10978",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno-6z-.jpg",
         "price": "$499",
-        "os": "ColorOS 11.1, Android 11",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "mediaTek"
     },
     {
-        "id": 1,
+        "id": 42,
         "brand": "Samsung",
         "phone_name": "Galaxy S22 5G",
         "slug": "samsung_galaxy_s22_5g-11253",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg",
         "price": "$799.99",
-        "os": "Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "Exynos"
     },
     {
-        "id": 2,
+        "id": 43,
         "brand": "Samsung",
         "phone_name": "Galaxy Tab S8+",
         "slug": "samsung_galaxy_tab_s8+-11342",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-plus.jpg",
         "price": "$599.99",
-        "os": "Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 3,
+        "id": 44,
         "brand": "Samsung",
         "phone_name": "Galaxy Tab S8 Ultra",
         "slug": "samsung_galaxy_tab_s8_ultra-11274",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8-ultra.jpg",
         "price": "$899.99",
-        "os": "Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "Exynos"
     },
     {
-        "id": 4,
+        "id": 45,
         "brand": "Samsung",
         "phone_name": "Galaxy S22+ 5G",
         "slug": "samsung_galaxy_s22+_5g-11252",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg",
         "price": "$849.99",
-        "os": "Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "Exynos"
     },
     {
-        "id": 5,
+        "id": 46,
         "brand": "Samsung",
         "phone_name": "Galaxy Tab S8",
         "slug": "samsung_galaxy_tab_s8-11343",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8.jpg",
         "price": "$699.99",
-        "os": "Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 6,
+        "id": 47,
         "brand": "Samsung",
         "phone_name": "Galaxy S21 FE 5G",
         "slug": "samsung_galaxy_s21_fe_5g-10954",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-fe-5g.jpg",
         "price": "$699.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 7,
+        "id": 48,
         "brand": "Samsung",
         "phone_name": "Galaxy S22 Ultra 5G",
         "slug": "samsung_galaxy_s22_ultra_5g-11251",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-ultra-5g.jpg",
         "price": "$999.99",
-        "os": "Android 12",
+        "os": "Android",
         "ram": "8GB",
         "chipset": "Exynos"
     },
     {
-        "id": 8,
+        "id": 49,
         "brand": "Samsung",
         "phone_name": "Galaxy Tab A8 10.5 (2021)",
         "slug": "samsung_galaxy_tab_a8_10_5_(2021)-11265",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a8-105-2021-new.jpg",
         "price": "$299.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "3GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 9,
+        "id": 50,
         "brand": "Samsung",
         "phone_name": "Galaxy A13 5G",
         "slug": "samsung_galaxy_a13_5g-11149",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13-5g-.jpg",
         "price": "$349.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 10,
+        "id": 51,
         "brand": "Samsung",
         "phone_name": "Galaxy A03 Core",
         "slug": "samsung_galaxy_a03_core-11215",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a03-core.jpg",
         "price": "$149.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "2GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 11,
+        "id": 52,
         "brand": "Samsung",
         "phone_name": "Galaxy A03",
         "slug": "samsung_galaxy_a03-11244",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a03.jpg",
         "price": "$179.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "2GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 13,
+        "id": 53,
         "brand": "Samsung",
         "phone_name": "Galaxy M22",
         "slug": "samsung_galaxy_m22-11011",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m22-.jpg",
         "price": "$249.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "Helio G80"
     },
     {
-        "id": 15,
+        "id": 54,
         "brand": "Samsung",
         "phone_name": "Galaxy M32 5G",
         "slug": "samsung_galaxy_m32_5g-11208",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m32-5g-.jpg",
         "price": "$449.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 16,
+        "id": 55,
         "brand": "Samsung",
         "phone_name": "Galaxy M32",
         "slug": "samsung_galaxy_m32-11444",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m32.jpg",
         "price": "$399.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "Helio G80"
     },
     {
-        "id": 18,
+        "id": 56,
         "brand": "Samsung",
         "phone_name": "Galaxy F52 5G",
         "slug": "samsung_galaxy_f52_5g-11367",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f52-5g.jpg",
         "price": "$479.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 19,
+        "id": 57,
         "brand": "Samsung",
         "phone_name": "Galaxy F22",
         "slug": "samsung_galaxy_f22-11393",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f22.jpg",
         "price": "$249.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "Helio G80"
     },
     {
-        "id": 20,
-        "brand": "Samsung",
-        "phone_name": "Galaxy F12",
-        "slug": "samsung_galaxy_f12-11366",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f12.jpg",
-        "price": "$179.99",
-        "os": "Android 11",
-        "ram": "4GB",
-        "chipset": "Exynos"
-    },
-    {
-        "id": 21,
+        "id": 58,
         "brand": "Samsung",
         "phone_name": "Galaxy A52s",
         "slug": "samsung_galaxy_a52s-11445",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52s.jpg",
         "price": "$549.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "6GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 24,
+        "id": 59,
         "brand": "Samsung",
         "phone_name": "Galaxy A22 5G",
         "slug": "samsung_galaxy_a22_5g-11389",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a22-5g.jpg",
         "price": "$299.99",
-        "os": "Android 11",
+        "os": "Android",
         "ram": "4GB",
         "chipset": "Snapdragon"
     },
     {
-        "id": 1,
+        "id": 60,
         "brand": "Huawei",
         "phone_name": "Enjoy 20e",
         "slug": "huawei_enjoy_20e-11177",
@@ -668,10 +657,10 @@
         "price": "$199.99",
         "chipset": "Mediatek",
         "ram": "4GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 2,
+        "id": 61,
         "brand": "Huawei",
         "phone_name": "P50 Pocket",
         "slug": "huawei_p50_pocket-11280",
@@ -679,10 +668,10 @@
         "price": "$699.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 11"
+        "os": "Android"
     },
     {
-        "id": 3,
+        "id": 62,
         "brand": "Huawei",
         "phone_name": "nova 8 SE 4G",
         "slug": "huawei_nova_8_se_4g-11247",
@@ -690,10 +679,10 @@
         "price": "$499.99",
         "chipset": "Mediatek",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 7,
+        "id": 63,
         "brand": "Huawei",
         "phone_name": "nova Y60",
         "slug": "huawei_nova_y60-11328",
@@ -701,10 +690,10 @@
         "price": "$179.99",
         "chipset": "Mediatek",
         "ram": "4GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 8,
+        "id": 64,
         "brand": "Huawei",
         "phone_name": "nova 9 Pro",
         "slug": "huawei_nova_9_pro-11120",
@@ -712,10 +701,10 @@
         "price": "$799.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 11"
+        "os": "Android"
     },
     {
-        "id": 9,
+        "id": 65,
         "brand": "Huawei",
         "phone_name": "nova 9",
         "slug": "huawei_nova_9-11121",
@@ -723,10 +712,10 @@
         "price": "$699.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 11"
+        "os": "Android"
     },
     {
-        "id": 10,
+        "id": 66,
         "brand": "Huawei",
         "phone_name": "P50 Pro",
         "slug": "huawei_p50_pro-11029",
@@ -734,10 +723,10 @@
         "price": "$899.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 11"
+        "os": "Android"
     },
     {
-        "id": 11,
+        "id": 67,
         "brand": "Huawei",
         "phone_name": "nova 8",
         "slug": "huawei_nova_8-11048",
@@ -745,10 +734,10 @@
         "price": "$599.99",
         "chipset": "Mediatek",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 12,
+        "id": 68,
         "brand": "Huawei",
         "phone_name": "nova 8 SE Youth",
         "slug": "huawei_nova_8_se_youth-11030",
@@ -756,10 +745,10 @@
         "price": "$349.99",
         "chipset": "Mediatek",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 13,
+        "id": 69,
         "brand": "Huawei",
         "phone_name": "P50",
         "slug": "huawei_p50-10788",
@@ -767,10 +756,10 @@
         "price": "$799.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 11"
+        "os": "Android"
     },
     {
-        "id": 14,
+        "id": 70,
         "brand": "Huawei",
         "phone_name": "nova 8i",
         "slug": "huawei_nova_8i-11002",
@@ -778,10 +767,10 @@
         "price": "$349.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 15,
+        "id": 71,
         "brand": "Huawei",
         "phone_name": "Mate 40 Pro 4G",
         "slug": "huawei_mate_40_pro_4g-10985",
@@ -789,10 +778,10 @@
         "price": "$899.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 16,
+        "id": 72,
         "brand": "Huawei",
         "phone_name": "Mate 40E 4G",
         "slug": "huawei_mate_40e_4g-10986",
@@ -800,43 +789,43 @@
         "price": "$799.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 17,
+        "id": 73,
         "brand": "Huawei",
         "phone_name": "Mate X2 4G",
         "slug": "huawei_mate_x2_4g-10987",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-x2-new.jpg",
         "price": "$1299.99",
-        "chipset": "Kirin",
+        "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 18,
+        "id": 74,
         "brand": "Huawei",
         "phone_name": "MatePad Pro 12.6 (2021)",
         "slug": "huawei_matepad_pro_12_6_(2021)-10942",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-pro-126-2021-new.jpg",
         "price": "$999.99",
-        "chipset": "Kirin",
+        "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 19,
+        "id": 75,
         "brand": "Huawei",
         "phone_name": "MatePad Pro 10.8 (2021)",
         "slug": "huawei_matepad_pro_10_8_(2021)-10938",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-pro-108-2021-new.jpg",
         "price": "$799.99",
-        "chipset": "Kirin",
+        "chipset": "Snapdragon",
         "ram": "6GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 20,
+        "id": 76,
         "brand": "Huawei",
         "phone_name": "MatePad 11 (2021)",
         "slug": "huawei_matepad_11_(2021)-10943",
@@ -844,10 +833,10 @@
         "price": "$599.99",
         "chipset": "Snapdragon",
         "ram": "4GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 23,
+        "id": 77,
         "brand": "Huawei",
         "phone_name": "nova 8 Pro 4G",
         "slug": "huawei_nova_8_pro_4g-10875",
@@ -855,43 +844,43 @@
         "price": "$599.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 25,
+        "id": 78,
         "brand": "Huawei",
         "phone_name": "Mate 40E",
         "slug": "huawei_mate_40e-10783",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-40.jpg",
         "price": "$699.99",
-        "chipset": "Kirin",
+        "chipset": "Snapdragon",
         "ram": "6GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 26,
+        "id": 79,
         "brand": "Huawei",
         "phone_name": "P40 4G",
         "slug": "huawei_p40_4g-10755",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p40-4g.jpg",
         "price": "$499.99",
-        "chipset": "Kirin",
+        "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 27,
+        "id": 80,
         "brand": "Huawei",
         "phone_name": "Mate X2",
         "slug": "huawei_mate_x2-10697",
         "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-x2-new.jpg",
         "price": "$1299.99",
-        "chipset": "Kirin",
+        "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     },
     {
-        "id": 28,
+        "id": 81,
         "brand": "Huawei",
         "phone_name": "nova 8 Pro 5G",
         "slug": "huawei_nova_8_pro_5g-10642",
@@ -899,6 +888,6 @@
         "price": "$699.99",
         "chipset": "Snapdragon",
         "ram": "8GB",
-        "os": "Android 10"
+        "os": "Android"
     }
 ]

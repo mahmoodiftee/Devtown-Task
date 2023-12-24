@@ -11,23 +11,23 @@ const GlobalCard = ({ card }) => {
                     />
                 </div>
                 <div className="px-4">
-                    <typography className="text-2xl font-bold">
+                    <span className="text-2xl font-bold">
                         {card.brand}
-                    </typography>
+                    </span>
                     <div className="mb-2 flex items-center justify-between">
-                        <typography className="text-lg font-bold">
+                        <span className="text-lg font-bold">
                             {card.phone_name}
-                        </typography>
-                        <typography className="text-lg font bold">
+                        </span>
+                        <span className="text-lg font bold">
                             {card.price}
-                        </typography>
+                        </span>
                     </div>
                 </div>
-                <cardfooter className="pt-0 my-2 w-full flex justify-center">
+                <footer className="pt-0 my-2 w-full flex justify-center">
                     <button className="btn btn-sm mx-auto py-0 px-3 btn-neutral" >
                         Details
                     </button>
-                </cardfooter>
+                </footer>
             </div>
         </div>
     );

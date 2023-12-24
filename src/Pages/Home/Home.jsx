@@ -4,49 +4,82 @@ import GlobalCard from "../../Components/Card/GlobalCard";
 import { useCustomHook } from "../../Provider/Provider";
 
 const Home = () => {
-    const { Selected, searchedItem } = useCustomHook();
-    const [allCards, setAllCards] = useState([]);
-    const [filteredCards, setFilteredCards] = useState([]);
+  const { filters, setTotalData, searchedItem, setCount } = useCustomHook();
+  const [allCards, setAllCards] = useState([]);
+  const [filteredCards, setFilteredCards] = useState([]);
+  console.log(searchedItem);
+  useEffect(() => {
+    setAllCards(json);
+  }, []);
+  useEffect(() => {
+    setTotalData(allCards);
+  }, []);
 
-    useEffect(() => {
-        setAllCards(json);
-    }, []);
+  useEffect(() => {
+    const filterData = () => {
+      let filteredData = allCards;
+      if (searchedItem && searchedItem !== "") {
+        const searchTerm = searchedItem.toLowerCase();
 
-    useEffect(() => {
-        const filterData = () => {
-            let filteredData = allCards;
+        filteredData = filteredData.filter(
+          (card) =>
+            card.brand.toLowerCase().includes(searchTerm) ||
+            card.os.toLowerCase().includes(searchTerm) ||
+            card.ram.toLowerCase().includes(searchTerm) ||
+            card.chipset.toLowerCase().includes(searchTerm)
+        );
+        setCount(filteredData.length);
+      }
 
-            // Filter by selected brand
-            if (Selected && Selected !== "") {
-                filteredData = filteredData.filter(
-                    (card) => card.brand.toLowerCase() === Selected.toLowerCase()
-                );
-            }
+      if (filters.selectedBrand && filters.selectedBrand !== "") {
+        filteredData = filteredData.filter((card) =>
+          card.brand.toLowerCase() === filters.selectedBrand.toLowerCase()
+        );
+      }
 
-            // Additional filters based on other criteria
-            if (searchedItem && searchedItem !== "") {
-                filteredData = filteredData.filter(
-                    (card) => card.brand.toLowerCase() === searchedItem.toLowerCase()
-                );
-            }
-            filteredData = filteredData.filter((card) => card.os.toLowerCase() === 'ios');
-            filteredData = filteredData.filter((card) => card.ram === '4GB');
-            filteredData = filteredData.filter((card) => card.chipset === 'Apple A15 Bionic');
-            // filteredData = filteredData.filter((card) => parseInt(card.price.replace('$', '')) <= 1000);
+      // Additional filters based on other criteria
+      if (filters.selectedOS && filters.selectedOS !== "") {
+        filteredData = filteredData.filter(
+          (card) => card.os.toLowerCase() === filters.selectedOS.toLowerCase()
+        );
+      }
 
-            return filteredData;
-        };
+      if (filters.selectedRAM && filters.selectedRAM !== "") {
+        filteredData = filteredData.filter(
+          (card) => card.ram.toLowerCase() === filters.selectedRAM.toLowerCase()
+        );
+      }
 
-        setFilteredCards(filterData());
-    }, [allCards, Selected, searchedItem]);
+      if (filters.selectedChipset && filters.selectedChipset !== "") {
+        filteredData = filteredData.filter((card) =>
+          card.chipset.toLowerCase() === filters.selectedChipset.toLowerCase()
+        );
+      }
 
-    return (
-        <div className='px-4 grid grid-cols-1 md:grid-cols-3 py-2 md:pb-20 gap-2 md:gap-6'>
-            {filteredCards.map((card) => (
-                <GlobalCard key={card.id} card={card} />
-            ))}
-        </div>
-    );
+      if (filters.selectedPrice && filters.selectedPrice !== "") {
+        const priceRange = parseInt(filters.selectedPrice, 10);
+
+        filteredData = filteredData.filter(
+          (card) => card.price <= priceRange
+        );
+      }
+      setTotalData(allCards.length);
+      setCount(filteredData.length);
+
+      console.log("Filtered Data:", filteredData);
+      return filteredData;
+    };
+
+    setFilteredCards(filterData());
+  }, [allCards, filters, searchedItem]);
+
+  return (
+    <div className='px-4 grid grid-cols-1 md:grid-cols-3 py-2 md:pb-20 gap-2 md:gap-6'>
+      {filteredCards.map((card) => (
+        <GlobalCard key={card.id} card={card} />
+      ))}
+    </div>
+  );
 };
 
 export default Home;
