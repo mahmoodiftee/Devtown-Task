@@ -4,7 +4,7 @@ export const FilterContext = createContext();
 
 const Provider = ({ children }) => {
   const [isGridView, setIsGridView] = useState(true);
-  console.log('clicked',isGridView);
+  console.log('clicked', isGridView);
 
   const [filters, setFilters] = useState({
     selectedBrand: null,
@@ -13,7 +13,7 @@ const Provider = ({ children }) => {
     selectedChipset: null,
     selectedPrice: null,
   });
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [searchedItem, setSearchedItem] = useState('');
   const [count, setCount] = useState('');
   const [totalData, setTotalData] = useState('');
@@ -22,7 +22,7 @@ const Provider = ({ children }) => {
 
   console.log(searchedItem);
   return (
-    <FilterContext.Provider value={{ isGridView, setIsGridView, selectedPriceRange, setSelectedPriceRange, totalData, setTotalData, count, setCount, loading, filters, searchedItem, setFilters, setSearchedItem }}>
+    <FilterContext.Provider value={{ isGridView, setLoading, setIsGridView, selectedPriceRange, setSelectedPriceRange, totalData, setTotalData, count, setCount, loading, filters, searchedItem, setFilters, setSearchedItem }}>
       {children}
     </FilterContext.Provider>
   );

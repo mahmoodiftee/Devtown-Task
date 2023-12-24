@@ -1,22 +1,32 @@
 import { useEffect, useState } from "react";
-import json from "../../assets/jsons/Oppo.json";
+import json from "../../assets/loading.json";
 import GlobalCard from "../../Components/Card/GlobalCard";
 import { useCustomHook } from "../../Provider/Provider";
 import ListCard from "../../Components/Card/ListCard";
-
+import axios from "axios";
+import { Player } from '@lottiefiles/react-lottie-player';
 const Home = () => {
-  const { isGridView, filters, setTotalData, selectedPriceRange, searchedItem, setCount } = useCustomHook();
+  const { loading, isGridView,setLoading, filters, setTotalData, selectedPriceRange, searchedItem, setCount } = useCustomHook();
   const [allCards, setAllCards] = useState([]);
   const [filteredCards, setFilteredCards] = useState([]);
-  console.log(searchedItem);
+
   useEffect(() => {
-    setAllCards(json);
-  }, []);
-  
+    axios.get('http://localhost:5000/phones')
+      .then((response) => {
+        const data = response.data;
+        setAllCards(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        setLoading(false);
+      });
+  }, [filters, searchedItem]);
+
   useEffect(() => {
     setTotalData(allCards.length);
   }, [allCards]);
-  
+
 
   useEffect(() => {
     const filterData = () => {
@@ -76,18 +86,36 @@ const Home = () => {
 
   return (
     <>
-      {isGridView ? (
-        <div className='grid grid-cols-1 md:grid-cols-3 py-2 md:pb-20 gap-2 md:gap-6'>
-          {filteredCards.map((card) => (
-            <GlobalCard key={card.id} card={card} />
-          ))}
+      {loading ? (
+        <div className="flex justify-center items-center">
+          <Player
+            autoplay
+            loop
+            src={json}
+            className='h-[400px] w-[350px] lg:h-[600px] lg:w-[600px]'
+          >
+          </Player>
         </div>
       ) : (
-        <div className='flex flex-col py-2 md:pb-20 px-2 md:px-4 gap-2 md:gap-3'>
-          {filteredCards.map((card) => (
-            <ListCard key={card.id} card={card} />
-          ))}
-        </div>
+        <>
+          {filteredCards.length > 0 ? (
+            isGridView ? (
+              <div className='grid grid-cols-1 md:grid-cols-3 py-2 md:pb-20 gap-2 md:gap-6'>
+                {filteredCards.map((card) => (
+                  <GlobalCard key={card.id} card={card} />
+                ))}
+              </div>
+            ) : (
+              <div className='flex flex-col py-2 md:pb-20 px-2 md:px-4 gap-2 md:gap-3'>
+                {filteredCards.map((card) => (
+                  <ListCard key={card.id} card={card} />
+                ))}
+              </div>
+            )
+          ) : (
+            <div className="flex text-3xl pt-20 font-medium justify-center items-center"><p>No phones found.</p></div>
+          )}
+        </>
       )}
     </>
 

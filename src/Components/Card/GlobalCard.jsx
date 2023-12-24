@@ -2,7 +2,7 @@
 const GlobalCard = ({ card }) => {
     return (
         <div>
-            <div className="w-full rounded-xl border-base-200 bg-base-100 border px-4 py-2">
+            <div className="w-full shadow-lg rounded-xl border-base-200 bg-base-100 border px-4 py-2">
                 <div className="h-72 p-2 bg-base-100 rounded-lg">
                     <img
                         src={card.image}
