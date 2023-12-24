@@ -1,5 +1,5 @@
 
-const ListCard = ({ card }) => {
+const ListCard = ({ card, openModal }) => {
     return (
         <div>
             <div className="flex justify-between py-3 px-4 rounded-xl items-center gap-3 md:gap-6 w-full bg-base-100 shadow-md">
@@ -11,7 +11,7 @@ const ListCard = ({ card }) => {
                     </div>
                 </div>
                 <footer className="flex-1 full flex justify-end">
-                    <button className="btn btn-sm py-0 px-3 btn-neutral" >
+                    <button onClick={() => openModal(card)} className="btn btn-sm py-0 px-3 btn-neutral" >
                         Details
                     </button>
                 </footer>

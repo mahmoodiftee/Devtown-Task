@@ -1,5 +1,5 @@
 
-const GlobalCard = ({ card }) => {
+const GlobalCard = ({ card, openModal }) => {
     return (
         <div>
             <div className="w-full shadow-lg rounded-xl border-base-200 bg-base-100 border px-4 py-2">
@@ -24,7 +24,7 @@ const GlobalCard = ({ card }) => {
                     </div>
                 </div>
                 <footer className="pt-0 my-2 w-full flex justify-center">
-                    <button className="btn btn-sm mx-auto py-0 px-3 btn-neutral" >
+                    <button onClick={() => openModal(card)} className="btn btn-sm mx-auto py-0 px-3 btn-neutral" >
                         Details
                     </button>
                 </footer>
