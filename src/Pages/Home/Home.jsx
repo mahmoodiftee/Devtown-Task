@@ -5,8 +5,9 @@ import { useCustomHook } from "../../Provider/Provider";
 import ListCard from "../../Components/Card/ListCard";
 import axios from "axios";
 import { Player } from '@lottiefiles/react-lottie-player';
+
 const Home = () => {
-  const { loading, isGridView,setLoading, filters, setTotalData, selectedPriceRange, searchedItem, setCount } = useCustomHook();
+  const { loading, isGridView, setLoading, filters, setTotalData, selectedPriceRange, searchedItem, setCount } = useCustomHook();
   const [allCards, setAllCards] = useState([]);
   const [filteredCards, setFilteredCards] = useState([]);
 
@@ -18,10 +19,24 @@ const Home = () => {
         setLoading(false);
       })
       .catch((error) => {
-        console.error(error);
         setLoading(false);
       });
   }, [filters, searchedItem]);
+
+  // useEffect(() => {
+  //   console.log('Filtering by Price. Selected Price Range:', selectedPriceRange);
+
+  //   const filteredByPrice = allCards.filter(
+  //     (card) => {
+  //       const cardPrice = parseFloat(card.price.replace(/[^0-9.-]+/g, ''));
+  //       return cardPrice <= selectedPriceRange;
+  //     }
+  //   );
+
+  //   console.log('Filtered Cards by Price:', filteredByPrice);
+
+  //   setFilteredCards(filteredByPrice);
+  // }, [allCards, selectedPriceRange]);
 
   useEffect(() => {
     setTotalData(allCards.length);
@@ -31,6 +46,15 @@ const Home = () => {
   useEffect(() => {
     const filterData = () => {
       let filteredData = allCards;
+
+ if (filters.selectedPrice && filters.selectedPrice !== "") {
+
+      filteredData = filteredData.filter((card) => {
+        const cardPrice = parseFloat(card.price.replace(/[^0-9.-]+/g, ''));
+        return cardPrice <= selectedPriceRange;
+      });
+    }
+
       if (searchedItem && searchedItem !== "") {
         const searchTerm = searchedItem.toLowerCase();
 
@@ -69,20 +93,15 @@ const Home = () => {
         );
       }
 
-      if (selectedPriceRange > 0) {
-        filteredData = filteredData.filter(
-          (card) => card.price <= selectedPriceRange
-        );
-      }
       setTotalData(allCards.length);
       setCount(filteredData.length);
 
-      console.log("Filtered Data:", filteredData);
       return filteredData;
     };
 
     setFilteredCards(filterData());
   }, [allCards, filters, searchedItem]);
+
 
   return (
     <>
@@ -102,13 +121,13 @@ const Home = () => {
             isGridView ? (
               <div className='grid grid-cols-1 md:grid-cols-3 py-2 md:pb-20 gap-2 md:gap-6'>
                 {filteredCards.map((card) => (
-                  <GlobalCard key={card.id} card={card} />
+                  <GlobalCard key={card._id} card={card} />
                 ))}
               </div>
             ) : (
               <div className='flex flex-col py-2 md:pb-20 px-2 md:px-4 gap-2 md:gap-3'>
                 {filteredCards.map((card) => (
-                  <ListCard key={card.id} card={card} />
+                  <ListCard key={card._id} card={card} />
                 ))}
               </div>
             )

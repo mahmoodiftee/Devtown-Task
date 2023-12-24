@@ -6,10 +6,8 @@ import { useCustomHook } from "../../Provider/Provider";
 const Navbar = () => {
     const { count, totalData, setSearchedItem, setIsGridView, isGridView } = useCustomHook();
     const [searchTerm, setSearchTerm] = useState('');
-    console.log(totalData, count);
     const handleSearch = () => {
         setSearchedItem(searchTerm);
-        console.log("searched Item: ", searchTerm);
     };
     const handleViewModeToggle = () => {
         setIsGridView(!isGridView);

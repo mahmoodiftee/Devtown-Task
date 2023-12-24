@@ -3,10 +3,12 @@ import { IoIosArrowUp } from "react-icons/io";
 import { useCustomHook } from '../../Provider/Provider';
 
 const Filter = () => {
-    const { filters, setFilters } = useCustomHook();
+    const { filters, setFilters,selectedPriceRange, setSelectedPriceRange } = useCustomHook();
 
     const handleSelectedOption = (category, value) => {
         setFilters((prevFilters) => ({ ...prevFilters, [category]: value }));
+        setSelectedPriceRange(value);
+        console.log('Selected Price Range:', value);
     };
 
     return (
@@ -94,24 +96,18 @@ const Filter = () => {
                             <Disclosure.Panel className="px-4 pb-2 pt-4 text-lg text-gray-500">
                                 <input
                                     type="range"
-                                    min={0}
-                                    max="100"
+                                    min="0"
+                                    max="1200"
+                                    value={selectedPriceRange}
+                                    onChange={(e) => handleSelectedOption('selectedPrice', Number(e.target.value))}
                                     className="range"
-                                    step="33"
-                                    onChange={(e) => {
-                                        handleSelectedOption('selectedPrice', e.target.value);
-                                        setFilters((prevFilters) => ({
-                                            ...prevFilters,
-                                            selectedPriceRange: parseInt(e.target.value, 10),
-                                        }));
-                                    }}
-                                    value={filters.selectedPriceRange || 0}
+                                    step="300"
                                 />
                                 <div className="w-full flex justify-between text-xs px-2">
                                     <span>$0-300</span>
-                                    <span>$600</span>
-                                    <span>$900</span>
-                                    <span>$1200</span>
+                                    <span>$300-600</span>
+                                    <span>$600-900</span>
+                                    <span>$900-1200</span>
                                 </div>
                             </Disclosure.Panel>
                         </>
